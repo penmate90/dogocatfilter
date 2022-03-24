@@ -1,0 +1,25 @@
+.btn-success:hover{
+    background-color: rgb(51, 150, 153);
+}
+
+canvas{
+    border-style: solid;
+    border-color: springgreen;
+    border-width: 1px;
+    margin-top: 20;
+    animation-name: smallbig;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes smallbig {
+    from{
+        border-style: solid;
+        border-color: rgb(0, 110, 255);
+        border-width: 1px;}
+    to{
+        border-style: solid;
+        border-color: rgb(115, 255, 0);
+        border-width: 5px;}
+    
+}
